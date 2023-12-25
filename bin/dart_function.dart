@@ -1,5 +1,8 @@
-import 'package:dart_function/dart_function.dart' as dart_function;
+void main () {
+  print(multipication(20));
+}
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_function.calculate()}!');
+// returntype funcName parameters 
+int multipication (int n) {
+  return n * 10;
 }
